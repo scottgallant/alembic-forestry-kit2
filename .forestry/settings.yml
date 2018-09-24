@@ -9,9 +9,11 @@ sections:
   create: all
   templates:
   - page
-- type: jekyll-posts
+- type: directory
+  path: _posts
   label: Posts
   create: all
+  match: "**/*"
   templates:
   - post
 - type: heading
