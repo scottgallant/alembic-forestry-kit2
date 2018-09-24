@@ -14,6 +14,8 @@ sections:
   create: all
   templates:
   - post
+- type: heading
+  label: test
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
